@@ -1,0 +1,22 @@
+/**
+ * Created by lvjr on 2018/11/27. app的全局样式设置
+ */
+
+/*reset 样式重置*/
+@import "helpers/reset";
+//helpers 辅助样式
+@import "helpers/var";
+@import "helpers/mixins";
+
+.cube-toast .cube-popup-content  {
+  border-radius: 8px;
+}
+.cube-popup .cube-toast-tip {
+  overflow: scroll;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1;
+  font-size: 30px;
+  max-width: 500px;
+  max-height: 200px;
+}
